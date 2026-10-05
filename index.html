@@ -96,6 +96,12 @@ h1,h2,h3{font-family:var(--serif);font-weight:700;color:var(--charcoal);line-hei
 .replay{margin-top:.7rem;background:none;border:0;padding:.2rem 0;font:inherit;font-size:.9rem;color:var(--bronze-deep);text-decoration:underline;text-underline-offset:3px;cursor:pointer;visibility:hidden}
 .replay.show{visibility:visible}
 
+/* Checklist gratuito */
+.free{background:var(--bronze-soft);border-top:1px solid #E2D8C6;border-bottom:1px solid #E2D8C6;padding:1.75rem 0}
+.free .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem 2rem}
+.free h2{font-size:1.5rem}
+.free p{margin-top:.25rem;color:var(--charcoal);max-width:36rem}
+
 /* Seções */
 section{scroll-margin-top:1rem}
 .sec{padding:clamp(3.5rem,8vw,6rem) 0}
@@ -226,6 +232,16 @@ footer .legal{flex-basis:100%;font-size:.85rem}
       <div class="bar" aria-hidden="true"><i id="bar"></i></div>
       <button class="replay" id="replay" type="button">Ver a leitura de novo</button>
     </div>
+  </div>
+</section>
+
+<section class="free" id="checklist">
+  <div class="wrap">
+    <div>
+      <h2>Seu currículo passa nos robôs?</h2>
+      <p>Checklist gratuito de 10 pontos para o seu currículo sobreviver à triagem automática (ATS) das plataformas de emprego.</p>
+    </div>
+    <a class="btn gold" href="checklist-ats.pdf" download>Baixar o checklist</a>
   </div>
 </section>
 
@@ -370,6 +386,7 @@ footer .legal{flex-basis:100%;font-size:.85rem}
     <ul>
       <li><a href="https://pay.cakto.com.br/87ke2k5_937487" target="_blank" rel="noopener">Template de Currículo</a></li>
       <li><a href="https://pay.cakto.com.br/9iy2hrb_936170" target="_blank" rel="noopener">Guia Definitivo do LinkedIn</a></li>
+      <li><a href="checklist-ats.pdf" download>Checklist ATS (PDF gratuito)</a></li>
     </ul>
     <p class="legal">© 2026 Mattos Consultoria. Todos os direitos reservados.</p>
   </div>
